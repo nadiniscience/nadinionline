@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Nadini Gamage</title>
+    <title>Nadini Gamage - Personal Website</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Particle.js CSS -->
@@ -12,97 +12,100 @@
     <!-- Custom CSS -->
     <style>
         body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom, #f5f5f5, #dcdcdc);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-}
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f5f5f5, #dcdcdc);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
 
-#particles-js {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
 
-.navbar {
-    background: rgba(0, 0, 0, 0) !important;
-    transition: background 0.5s ease;
-}
+        .navbar {
+            background: rgba(0, 0, 0, 0) !important;
+            transition: background 0.5s ease;
+        }
 
-.navbar-brand,
-.navbar-nav a {
-    color: #0a0808 !important;
-    font-weight: bold;
-}
-.navbar-toggler-icon {
-    background: rgba(0, 0, 0, 0); /* Change to the desired color (black in this case) */
-}
-.navbar-toggler-icon {
-    filter: invert(100%);
-}
-.container-box ul {
-    list-style: none;
-    padding: 0;
-}
+        .navbar-brand,
+        .navbar-nav a {
+            color: #0a0808 !important;
+            font-weight: bold;
+        }
 
-.container-box ul li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-}
+        .navbar-toggler-icon {
+            background: rgba(0, 0, 0, 0);
+        }
 
-.container-box ul li:before {
-    content: '\2022'; /* Unicode character for a bullet point */
-    color: #3498db; /* Change the color of the bullet point */
-    font-size: 20px;
-    position: absolute;
-    left: 0;
-}
+        .navbar-toggler-icon {
+            filter: invert(100%);
+        }
 
-h1, h2, h3 {
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 20px;
-}
+        .container-box ul {
+            list-style: none;
+            padding: 0;
+        }
 
-p {
-    text-align: justify;
-    line-height: 1.6;
-}
+        .container-box ul li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
 
-.profile-photo {
-    max-width: 150px;
-    width: 100%; /* Ensure the image takes its container's full width */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto 20px;
-    display: block;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
-    border: 5px solid #fff; /* Add a white border */
-}
+        .container-box ul li:before {
+            content: '\2022';
+            color: #3498db;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+        }
 
-.profile-photo:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-}
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-.container-box#about {
-    padding-top: 0; /* Remove top padding */
-}
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
 
-.container-box#about h1 {
-    display: none; /* Hide the heading */
-}
+        .profile-photo {
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto 20px;
+            display: block;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            border: 5px solid #fff;
+        }
 
-.container-box#about p {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: justify;
-}
+        .profile-photo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        }
 
+        .container-box#about {
+            padding-top: 0;
+        }
 
+        .container-box#about h1 {
+            display: none;
+        }
+
+        .container-box#about p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
     </style>
 </head>
 
@@ -122,16 +125,19 @@ p {
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#academic">Academic Records</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#employment">Employment</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#research">Research</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#teaching">Teaching</a>
                 </li>
             </ul>
         </div>
@@ -140,86 +146,185 @@ p {
     <!-- Page Content -->
     <div class="container mt-5 container-box" id="about">
         <h1>About Me</h1>
-        <img src="https://nadiniscience.github.io/nadinionline/nadini.HEIC" alt="Profile Photo" class="profile-photo">
-        <p>I am a computer science Ph.D. student at Portland State University. My research is currently focused on
-        the Generative AI methods,
-          Reinforcement Learning (RL) and deep learning techniques in the real-world applications.
-    </p>
+        <img src="https://nadiniscience.github.io/nadinionline/nadini.jpg" alt="Profile Photo" class="profile-photo">
+        <p>Graduate from the University of Kelaniya, with excellent research, analytical & communication skills. A spirited, creative, and ambitious individual who has developed a mature and responsible approach to any task that I undertake or situation that I’m presented with. I’m seeking an opportunity to gain experience in a professional career, where my academic knowledge and laboratory experience can be applied, and exceptional skills are utilized. Hope to serve the organization with sincerity, determination, and diligence.</p>
     </div>
 
+    <!-- Academic Records Section -->
+    <div class="container mt-5 container-box" id="academic">
+        <h2>Academic Records</h2>
+        <!-- Include details about academic records -->
+        <p>
+            <strong>Master of Philosophy in Chemistry (Reading from 2019 to present)</strong><br>
+            Department of Chemistry, Faculty of Science, University of Kelaniya, Sri Lanka<br>
+            Research: Managing non-communicable diseases by intervention through lifestyle changes and nutraceutical supplement
+        </p>
+        <p>
+            <strong>Bachelor of Science in Biology (Honours) (2019)</strong><br>
+            Faculty of Science, University of Kelaniya, Sri Lanka<br>
+            Second Class, GPA-3.53<br>
+            Subject Areas: Chemistry, Molecular Biology and Biotechnology, and Botany<br>
+            Thesis: Phylogenetic Relationships in ANITA grade (family Nymphaeaceae) and Magnoliids: Morphometrics and Floral Pigments (flavonoids) Distribution<br>
+            Grade: A
+        </p>
+        <p>
+            <strong>Diploma in Food Quality Management (2017/2018)</strong><br>
+            Sri Lanka Standards Institution (Registration number: DF/17/09/06)
+        </p>
+        <p>
+            <strong>General Certificate of Education (Advanced Level) examination (2013)</strong><br>
+            Department of Examination, Sri Lanka<br>
+            Chemistry –B, Physics –C, Biology –B
+        </p>
+    </div>
+
+    <!-- Employment Section -->
+    <div class="container mt-5 container-box" id="employment">
+        <h2>Employment Record</h2>
+        <!-- Include details about employment record -->
+        <p>
+            <strong>Research Assistant, Department of Chemistry, University of Kelaniya, Sri Lanka. (August, 2019 to present)</strong>
+        </p>
+        <p>
+            <strong>Temporary Teaching Assistant, Department of Plant and Molecular Biology, Faculty of Science, University of Kelaniya, Sri Lanka. (January, 2019 to July 2019)</strong>
+        </p>
+    </div>
+
+    <!-- Research Section -->
     <div class="container mt-5 container-box" id="research">
-        <h2>Research</h2>
+        <h2>Research Interests</h2>
+        <!-- Include details about research interests -->
+        <p>
+            <strong>Research Interests:</strong>
+        </p>
         <ul>
-            <li>
-              Master's thesis : “Questions answering Chatbot: by converting Singlish to SQL queries conversion” 2019-2022
-            </li>
-            <li>
-              Bachelor's thesis: “Suspicious Human behavior system: by using Machine learning and Image processing” 2015-2019
-            </li>
+            <li>Food science</li>
+            <li>Food chemistry</li>
+            <li>Food technology</li>
+            <li>Animal science</li>
         </ul>
     </div>
 
+    <!-- Publications/Patent Section -->
+<div class="container mt-5 container-box" id="publications">
+    <h2>Publications/Patent</h2>
+
+    <p>
+        <strong>Full papers</strong>
+    </p>
+    <ul>
+        <li>
+            Dewangani, H.G.N., Jayawardena, B.M., Chandrasekara, N.V. and Wijayagunaratne, H.D.S.P. (2021).
+            Effect of Common Culinary Methods Practiced in Sri Lanka on the Nutrient Composition of Commonly Consumed
+            Vegetables and Other Foods. International Journal of Food Science, 2021, pp.1–13.
+            (DOI: https://doi.org/10.1155/2021/5537683)
+        </li>
+        <li>
+            Dewangani, H.G.N., Jayawardena, B. and Wijayagunarathne, H.D.S.P. (2020).
+            Yoga-based Lifestyle Intervention for Prevention and Management of Type 2 Diabetes Mellitus and Associated
+            Complications: A Clinical Research Review. Indian journal of Medical Biochemistry 24(3): pp.125–129.
+            (DOI: 10.5005/jp-journals-10054-0165)
+        </li>
+    </ul>
+
+    <p>
+        <strong>Patent (Under review)</strong>
+    </p>
+    <ul>
+        <li>
+            Patent –21406 - Manufacturing cinnamon based natural dietary supplement: Product & Process,
+            National Intellectual Property Organization (NIPO), submitted on 18 October, 2020.
+            <br>
+            PCT application No: PCT/IB/2021/059075 - Manufacturing cinnamon based natural dietary supplement:
+            Product & Process, World Intellectual Property Organization (WIPO), submitted on 04 October, 2021.
+        </li>
+    </ul>
+
+    <p>
+        <strong>Conference papers</strong>
+    </p>
+    <ul>
+        <li>
+            Dewangani, H.G.N., Jayawardena, B. M. and Wariyapperuma, W. A. N. M. (2020).
+            Stability of Cinnamomum zeylanicum (“Sri Vijaya” variety) water extract in different storage conditions.
+            Proceedings of the National Conference on Multidisciplinary Research (NCMR). National Institute of
+            Fundamental Studies, Sri Lanka, pp. 48.
+        </li>
+        <li>
+            Sathsarani, H.M.W.K., Jayawardena, B. M. and Dewangani, H.G.N. (2020).
+            Anti-diabetic activity of cinnamon (Cinnamomum zeylanicum) loaded nanoparticles.
+            Proceedings of the International Conference on Applied and Pure Sciences (ICAPS), University of Kelaniya.
+            Sri Lanka, pp. 30.
+        </li>
+        <li>
+            Dewangani, H.G.N. and Priyadarshan, A.I.S. (2019).
+            Investigation of phylogenetic relationships between selected species of basal angiosperms (family
+            Nymphaeaceae and Magnoliid clade); morphometrics and flavonoid distribution.
+            Proceedings of the International Conference on Biodiversity and Environmental Management.
+            Department of Forestry and Environmental Science, University of Sri Jayawardenepura Sri Lanka, pp 21.
+        </li>
+        <li>
+            Bopitiya, B.D.S.S., Dewangani, H.G.N., Perera, H.W.K., Premachandra, J.A.H.P., Senevirathne, M.A.T.M.,
+            Kalpani, N., Kodithuwakku, T.D. and Kannangara, S. (2019).
+            Isolation and identification of litter decomposing fungi in Nagacholai Forest Reserve, Mullaitivu, Sri Lanka.
+            Proceedings of the 4th International Research Symposium on Pure and Applied Sciences, University of Kelaniya.
+            Sri Lanka, pp. 55.
+        </li>
+        <li>
+            Dewangani, H.G.N. and Priyadarshan, A.I.S. (2019).
+            Phylogenetic relationships in ANITA grade (Family Nymphaeaceae) and Magnoliids; pollen morphometrics.
+            Proceedings of the 39th Annual Sessions of the Institute of Biology (IOBSL), Sri Lanka, pp.01.
+        </li>
+        <li>
+            Dewangani, H.G.N., Jayawardena, B. M. (2021).
+            Influence of domestic cooking on the levels of bioactive compounds and antioxidant activity in green leafy
+            vegetables. Accepted to be published in the International Conference on Applied and Pure Sciences (ICAPS)
+            to be held on 29th October 2021.
+        </li>
+        <li>
+            Sathsarani, H.M.W.K., Dewangani, H.G.N. and Jayawardena, B. M. (2021).
+            Synthesis and characterization of cinnamon enriched BSA particles with antidiabetic properties.
+            Accepted to be published in the International Conference on Applied and Pure Sciences (ICAPS)
+            to be held on 29th October 2021.
+        </li>
+    </ul>
+</div>
+
+
+    <!-- Skills Section -->
+    <div class="container mt-5 container-box" id="skills">
+        <h2>Relevant Skills</h2>
+        <!-- Include details about relevant skills -->
+        <p>
+            <strong>Languages:</strong> Fluent in both written and spoken English, Sinhala
+        </p>
+        <p>
+            <strong>Computer tools:</strong> Proficient user of MS office, SPSS, Mini tab, Graphpad prism, Umetrics SIMCA, PAST, DELTA
+        </p>
+        <p>
+            <strong>Laboratory skills:</strong>
+        </p>
+        <ul>
+            <li>Hands-on experience in operating and optimizing conditions for analytical instruments such as UV/VIS spectrophotometer, Microplate reader, Gas chromatography-Mass Spectroscopy (GC-MS), Fourier Transform Infrared Spectroscopy (FT-IR) analysis</li>
+            <li>In-silico studies using tools; PyMol, Autodock, Gaussian</li>
+            <li>Laboratory animal handling of Wistar rats including oral feeding, Euthanizing techniques, and tail vein blood collection.</li>
+        </ul>
+    </div>
+
+    <!-- Experience Section -->
     <div class="container mt-5 container-box" id="experience">
-        <h2>Industry Experience</h2>
-             <ul>
-             <li>Etihad Guest Mobile Application, Arimac Lanka Colombo, Sri Lanka</li>
-                <ul><li>Senior Software Engineer | Backend – Java Jan. 2023-Present</li></ul>
-            <li>UAV R&D Wing, Sri Lanka Air Force Katukurunda, Sri Lanka</li>
-               <ul>
-                <li>Commissioned Officer | Machine Learning Engineer - Python Dec. 2021-June. 2022</li>
-
-               <li>Commissioned Officer | Software Engineer - .Net Feb. 2021-Dec. 2021</li>
-               </ul>
-            <li> Virtusa Colombo, Sri Lanka  </li>
-               <ul>
-                   <li>Associate Software Engineer | Full stack (Java, ReactJs) Jan. 2020-Sep. 2020</li>
-
-                   <li>Associate Software Engineer | DevOps Mar. 2019-Jan. 2020</li>
-               </ul>
-
-            <li>Golden Sphere, S2T Unlocking Cyberspace Colombo, Sri Lanka</li>
-               <ul>
-                   <li>Junior Software Engineer | Backend - Java Oct. 2017-Mar. 2018 </li>
-               </ul>
-
-           </ul>
-    </div>
-
-    <div class="container mt-5 container-box" id="education">
-        <h2>Education</h2>
-         <ul>
-                <li>
-                   M.Sc. in Big Data Analytics, Robert Gordon University Aberdeen, Scotland
-                </li>
-                <li>
-                    B.Sc. Hons in Software Engineering, University of Kelaniya Kelaniya, Sri Lanka
-                    <ul><li>Final year GPA: 3.87 (Graduated with Second class upper division)</li></ul>
-
-
-                </li>
-                <li>
-                    B.Sc. Hons in Electrical & Electronic Engineering, SLIIT Malabe, Sri Lanka
-                    <ul><li>Completed only the Certification Level of the program 2014</li></ul>
-
-                </li>
-                <li>
-                    High School, H/Debarawewa National Collage Tissamaharama, SL
-                    <ul><li>Advanced Level (Physical Stream- BBB, District Rank - 93) 2012</li></ul>
-
-                </li>
-            </ul>
-    </div>
-
-    <div class="container mt-5 container-box" id="teaching">
-        <h2>Teaching</h2>
-
+        <h2>On-Campus Experience and Involvements</h2>
+        <!-- Include details about on-campus experience and involvements -->
+        <p>
+            <strong>On-Campus Experience and Involvements:</strong>
+        </p>
         <ul>
-            <li> Teaching Assistant: CS 314 Elements of Software Engineering in Fall 23</li>
-
+            <li>Member of Chemical Society, (2015) University of Kelaniya, Sri Lanka</li>
+            <li>Member of Plant and Molecular Biology Student Association-University of Kelaniya (2017-2019)</li>
+            <li>Awarded the certificate for the phenomenal contribution at “Vidya 2017” exhibition, University of Kelaniya</li>
+            <li>Sustainability leadership training program organized by the center of sustainability solutions, University of Kelaniya (27th September to 20th December, 2017)</li>
         </ul>
     </div>
-
-
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
