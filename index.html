@@ -27,9 +27,9 @@
         }
 
         .navbar {
-            background: rgba(0, 0, 0, 0) !important;
-            transition: background 0.5s ease;
-        }
+        background: rgba(0, 0, 0, 0.1) !important; /* Shaded background color */
+        transition: background 0.5s ease;
+    }
 
         .navbar-brand,
         .navbar-nav a {
@@ -93,10 +93,37 @@
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
         }
 
-        .container-box#about {
-            padding-top: 0;
-        }
+/* Add top margin to each container */
+.container-box {
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
 
+/* Adjust top padding for each container */
+.container-box#about {
+    padding-top: 60px; /* Adjust the top padding as needed */
+}
+
+.container-box#academic {
+    padding-top: 60px; /* Adjust the top padding as needed */
+}
+
+.container-box#employment {
+    padding-top: 60px; /* Adjust the top padding as needed */
+}
+
+.container-box#publications {
+    padding-top: 60px; /* Adjust the top padding as needed */
+}
+
+.container-box#honors-awards-scholarships {
+    padding-top: 60px; /* Adjust the top padding as needed */
+}
+
+
+
+.container-box#campus-experience-involvements {
+    padding-top: 60px; /* Adjust the top padding as needed */
+}
         .container-box#about h1 {
             display: none;
         }
@@ -130,21 +157,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#employment">Employment</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#research">Research</a>
-                </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="#honors-awards-scholarships">Awards</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#relevant-skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#workshops-courses">Workshops</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#campus-experience-involvements">On-Campus</a>
+                    <a class="nav-link" href="#campus-experience-involvements">Extracurricular</a>
                 </li>
             </ul>
         </div>
@@ -154,10 +173,7 @@
     <div class="container mt-5 container-box" id="about">
         <h1>About Me</h1>
         <img src="https://nadiniscience.github.io/nadinionline/nadini.jpg" alt="Profile Photo" class="profile-photo">
-        <p>A doctoral student with excellent research,
-            analytical & communication skills. A spirited, creative, and ambitious individual
-            who has developed a mature and responsible approach to any task that I undertake or
-            situation that I’m presented with.
+        <p> I am a third-year Ph.D. student conducting research primarily in muscle biology and molecular biology for my dissertation. The focus of this project is to understand the role of nano-nutrients in beef meat and their impact on human health. I have a keen interest in industry technologies and emerging food trends.
         </p>
     </div>
 
@@ -170,7 +186,7 @@
        <i>Department of Agriculture, Veterinary and Rangeland Sciences, University of Nevada, Reno</i> <br>
     Dissertation: Role of small RNAs as biomarkers for meat quality and their nutrigenomics effects on human
     health<br>
-    Current GPA – 3.84
+
         </p>
         <p>
             <strong>Master of Philosophy in Chemistry </strong>(August 2019 – November 2021)<br>
@@ -182,21 +198,16 @@ supplement
          <p>
             <strong>Bachelor of Science in Biology (Honors)</strong> (February 2015- March 2019)<br>
        <i>Faculty of Science, University of Kelaniya, Sri Lanka</i> <br>
-    Second Class, GPA-3.53<br>
+
     Subject Areas: Chemistry, Molecular Biology and biotechnology and Plant Science<br>
-Thesis: Phylogenetic Relationships in ANITA grade (family Nymphaeaceae) and Magnoliids: Morphometrics
-and Floral Pigments (flavonoids) Distribution<br>
-Grade: A
+
         </p>
         <p>
             <strong>Diploma in Food Quality Management </strong>(2017/2018)<br>
             Sri Lanka Standards Institution (Registration number: DF/17/09/06)
         </p>
-        <p>
-            <strong>High School - General Certificate of Education (Advanced Level) examination</strong>(August 2013)<br>
-            <i>Department of Examination, Sri Lanka</i><br>
-            Chemistry –B, Physics –C, Biology –B
-        </p>
+
+
     </div>
 
     <!-- Employment Section -->
@@ -218,36 +229,26 @@ College of Agriculture, Biotechnology & Natural Resources, University of Nevada,
         </p>
     </div>
 
-    <!-- Research Section -->
-    <div class="container mt-5 container-box" id="research">
-        <h2>Research Interests</h2>
-        <!-- Include details about research interests -->
-        <p>
-            <strong>Research Interests:</strong>
-        </p>
-        <p>
-            My primary research interest mainly focuses on muscle biology and molecular biology. My long-term research
-goal is to better understand the role of postmortem meat biochemistry to increase eating qualities of meat
-regarding human health and economic benefits associated with improvements in muscle food appearance. I&#39;m
-currently working on utilization of miRNA expression data in beef for development of mathematical model that
-easily let us to measure the meat tenderness more accurately.
-I have special interests in industry technologies and emerging food trends. I am also interested in food analytical
-techniques.
-        </p>
-    </div>
+
 
     <!-- Publications/Patent Section -->
 <div class="container mt-5 container-box" id="publications">
     <h2>PUBLICATIONS/ PATENT</h2>
 
     <p>
-        <strong>Patent</strong>
+        <strong>Patent/PCT</strong>
     </p>
     <ul>
         <li>
             Publication number: WO2022/079539
+
             <br>
             Manufacturing cinnamon based natural dietary supplement: Product & Process, World Intellectual Property Organization (WIPO), published on 21st April 2022.
+
+
+        </li>
+        <li>
+            PCT/IB2021/059075 (22), Publication language: English (EN) - Filing Date:04.10.2021
         </li>
     </ul>
 
@@ -256,21 +257,21 @@ techniques.
     </p>
     <ul>
         <li>
-            Binuki Wanniarachchi, Sathsarani, H.M.W.K., Bimali Jayawardena and Nadini Dewangani, H. G. (2023).
+            Binuki Wanniarachchi, Sathsarani, H.M.W.K., Bimali Jayawardena and <strong>Nadini Dewangani</strong>, <strong>H.G.N.</strong> (2023).
             Synthesis and Characterization of Cinnamon Loaded BSA Microparticles with Antidiabetic Properties.
             Biology, Medicine & Natural Product Chemistry, 12(1), pp.241–250.
         </li>
         <li>
-            Lebedová, N., de Mello, A., Dewangani Gamage, N., Bartoň, L., Bureš, D. Systém hodnocení jatečných těl skotu v USA. 2023. Maso, 34(2), 31-37
+            Lebedová, N., de Mello, A., <strong>Dewangani Gamage, N.</strong>, Bartoň, L., Bureš, D. Systém hodnocení jatečných těl skotu v USA. 2023. Maso, 34(2), 31-37
         </li>
         <li>
-            Dewangani,H.G.N., Jayawardena, B.M., Chandrasekara, N.V., and Waliwita., W.A.L.C. (2022): Changes in the Antioxidant Micronutrients and Volatile Metabolomics Profile of Selected Edible Vegetables Cooked with Coconut Milk and Heat Extracted Coconut Oil. Journal of Culinary Science & Technology, (DOI: <a href="https://doi.org/10.1080/15428052.2022.2052392">https://doi.org/10.1080/15428052.2022.2052392</a>)
+            <strong>Dewangani, H.G.N.</strong>, Jayawardena, B.M., Chandrasekara, N.V., and Waliwita., W.A.L.C. (2022): Changes in the Antioxidant Micronutrients and Volatile Metabolomics Profile of Selected Edible Vegetables Cooked with Coconut Milk and Heat Extracted Coconut Oil. Journal of Culinary Science & Technology, (DOI: <a href="https://doi.org/10.1080/15428052.2022.2052392">https://doi.org/10.1080/15428052.2022.2052392</a>)
         </li>
         <li>
-            Dewangani, H.G.N., Jayawardena, B.M., Chandrasekara, N.V. and Wijayagunaratne, H.D.S.P. (2021). Effect of Common Culinary Methods Practiced in Sri Lanka on the Nutrient Composition of Commonly Consumed Vegetables and Other Foods. International Journal of Food Science, 2021, pp.1–13. (DOI: <a href="https://doi.org/10.1155/2021/5537683">https://doi.org/10.1155/2021/5537683</a>)
+            <strong>Dewangani, H.G.N.</strong>, Jayawardena, B.M., Chandrasekara, N.V. and Wijayagunaratne, H.D.S.P. (2021). Effect of Common Culinary Methods Practiced in Sri Lanka on the Nutrient Composition of Commonly Consumed Vegetables and Other Foods. International Journal of Food Science, 2021, pp.1–13. (DOI: <a href="https://doi.org/10.1155/2021/5537683">https://doi.org/10.1155/2021/5537683</a>)
         </li>
         <li>
-            Dewangani, H.G.N., Jayawardena, B. and Wijayagunarathne, H.D.S.P. (2020). Yoga-based Lifestyle Intervention for Prevention and Management of Type 2 Diabetes Mellitus and Associated Complications: A Clinical Research Review. Indian journal of Medical Biochemistry 24(3): pp.125–129. (DOI: 10.5005/jp-journals-10054-0165)
+            <strong>Dewangani, H.G.N.</strong>, Jayawardena, B. and Wijayagunarathne, H.D.S.P. (2020). Yoga-based Lifestyle Intervention for Prevention and Management of Type 2 Diabetes Mellitus and Associated Complications: A Clinical Research Review. Indian journal of Medical Biochemistry 24(3): pp.125–129. (DOI: 10.5005/jp-journals-10054-0165)
         </li>
     </ul>
 
@@ -279,48 +280,50 @@ techniques.
     </p>
     <ul>
         <li>
-            Gamage, N.D.H., Giotto, F.M., Gerrard, D.E., Fonseca, M.A., and De Mello, A.S. (2023). Effects of the inclusion of omega-3 fish oil in calf diets on fatty acid profile of veal. Will be published in the proceedings of the 76th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. (Poster presentation number 1-174).
+            <strong>Gamage, N.D.H.</strong>, Giotto, F.M., Gerrard, D.E., Fonseca, M.A., and De Mello, A.S. (2023). Effects of the inclusion of omega-3 fish oil in calf diets on fatty acid profile of veal. Will be published in the proceedings of the 76th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. (Poster presentation number 1-174).
         </li>
         <li>
-            Gamage, N.D.H., Lopez, J.R., and De Mello, A.S. (2023). Bacteriophage gr-026 lyses surrogate indicator strain atcc-baa-1428. Will be published in the proceedings of the 76th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. (Poster presentation number 1-171)
+            <strong>Gamage, N.D.H.</strong>, Lopez, J.R., and De Mello, A.S. (2023). Bacteriophage gr-026 lyses surrogate indicator strain atcc-baa-1428. Will be published in the proceedings of the 76th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. (Poster presentation number 1-171)
         </li>
         <li>
-            Gamage, N.D.H., Giotto, F.M., Fonseca, M.A., and De Mello, A.S. (2023). Short-term implanting strategies do not alter the fatty acid profile of beef.  Will be published in the proceedings of the 76th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. (Poster presentation number 1-178)
+            <strong>Gamage, N.D.H.</strong>, Giotto, F.M., Fonseca, M.A., and De Mello, A.S. (2023). Short-term implanting strategies do not alter the fatty acid profile of beef.  Will be published in the proceedings of the 76th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. (Poster presentation number 1-178)
         </li>
         <li>
-            Giotto, F.M., Gamage, N.D.H., Fonseca, M.A., and De Mello, A.S. (2022). Effects of a single dose implant strategy on carcass weight, carcass characteristics, and meat quality attributes of angus steers. Proceedings of the 75th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. Pp 49.
+            Giotto, F.M., <strong>Gamage, N.D.H.</strong>, Fonseca, M.A., and De Mello, A.S. (2022). Effects of a single dose implant strategy on carcass weight, carcass characteristics, and meat quality attributes of angus steers. Proceedings of the 75th Reciprocal Meat Conference (RMC). American Meat Science Association, USA. Pp 49.
         </li>
         <li>
-            Dewangani, H.G.N., Jayawardena, B. M. and Wariyapperuma, W. A. N. M. (2020). Stability of Cinnamomum zeylanicum (“Sri Vijaya” variety) water extract in different storage conditions. Proceedings of the National Conference on Multidisciplinary Research (NCMR). National Institute of Fundamental Studies, Sri Lanka, pp. 48.
+            <strong>Dewangani, H.G.N.</strong>, Jayawardena, B. M. and Wariyapperuma, W. A. N. M. (2020). Stability of Cinnamomum zeylanicum (“Sri Vijaya” variety) water extract in different storage conditions. Proceedings of the National Conference on Multidisciplinary Research (NCMR). National Institute of Fundamental Studies, Sri Lanka, pp. 48.
         </li>
         <li>
-            Sathsarani, H.M.W.K., Jayawardena, B. M. and Dewangani, H.G.N. (2020). Anti-diabetic activity of cinnamon (Cinnamomum zeylanicum) loaded nano- particles. Proceedings of the International Conference on Applied and Pure Sciences (ICAPS), University of Kelaniya. Sri Lanka, pp. 30.
+            Sathsarani, H.M.W.K., Jayawardena, B. M. and <strong>Dewangani, H.G.N.</strong> (2020). Anti-diabetic activity of cinnamon (Cinnamomum zeylanicum) loaded nano- particles. Proceedings of the International Conference on Applied and Pure Sciences (ICAPS), University of Kelaniya. Sri Lanka, pp. 30.
         </li>
         <li>
-            Dewangani, H.G.N. and Priyadarshan, A.I.S. (2019). Investigation of phylogenetic relationships between selected species of basal angiosperms (family Nymphaeaceae and Magnoliid clade); morphometrics and flavonoid distribution. Proceedings of the International Conference on Biodiversity and Environmental Management. Department of Forestry and Environmental Science, University of Sri Jayawardenepura Sri Lanka, pp 21.
+            <strong>Dewangani, H.G.N.</strong> and Priyadarshan, A.I.S. (2019). Investigation of phylogenetic relationships between selected species of basal angiosperms (family Nymphaeaceae and Magnoliid clade); morphometrics and flavonoid distribution. Proceedings of the International Conference on Biodiversity and Environmental Management. Department of Forestry and Environmental Science, University of Sri Jayawardenepura Sri Lanka, pp 21.
         </li>
         <li>
-            Bopitiya, B.D.S.S., Dewangani, H.G.N., Perera, H.W.K., Premachandra, J.A.H.P., Senevirathne, M.A.T.M., Kalpani, N., Kodithuwakku, T.D. and Kannangara, S. (2019). Isolation and identification of litter decomposing fungi in Nagacholai Forest Reserve, Mullaitivu, Sri Lanka. Proceedings of the 4th International Research Symposium on Pure and Applied Sciences, University of Kelaniya. Sri Lanka, pp. 55.
+            Bopitiya, B.D.S.S., <strong>Dewangani, H.G.N.</strong>, Perera, H.W.K., Premachandra, J.A.H.P., Senevirathne, M.A.T.M., Kalpani, N., Kodithuwakku, T.D. and Kannangara, S. (2019). Isolation and identification of litter decomposing fungi in Nagacholai Forest Reserve, Mullaitivu, Sri Lanka. Proceedings of the 4th International Research Symposium on Pure and Applied Sciences, University of Kelaniya. Sri Lanka, pp. 55.
         </li>
         <li>
-            Dewangani, H.G.N. and Priyadarshan, A.I.S. (2019). Phylogenetic relationships in ANITA grade (Family Nymphaeaceae) and Magnoliids; pollen morphometrics. Proceedings of the 39th Annual Sessions of the Institute of Biology (IOBSL), Sri Lanka, pp.01
+            <strong>Dewangani, H.G.N.</strong> and Priyadarshan, A.I.S. (2019). Phylogenetic relationships in ANITA grade (Family Nymphaeaceae) and Magnoliids; pollen morphometrics. Proceedings of the 39th Annual Sessions of the Institute of Biology (IOBSL), Sri Lanka, pp.01
         </li>
         <li>
-            Dewangani, H.G.N., Jayawardena, B. M. (2021). Influence of domestic cooking on the levels of bioactive compounds and antioxidant activity in green leafy vegetables. Accepted to be published in the International Conference on Applied and Pure Sciences (ICAPS) to be held on 29th October 2021.
+            <strong>Dewangani, H.G.N.</strong>, Jayawardena, B. M. (2021). Influence of domestic cooking on the levels of bioactive compounds and antioxidant activity in green leafy vegetables. Accepted to be published in the International Conference on Applied and Pure Sciences (ICAPS) to be held on 29th October 2021.
         </li>
         <li>
-            Sathsarani, H.M.W.K., Dewangani, H.G.N. and Jayawardena, B. M. (2021). Synthesis and characterization of cinnamon enriched BSA particles with antidiabetic properties. Accepted to be published in the International Conference on Applied and Pure Sciences (ICAPS) to be held on 29th October 2021.
+            Sathsarani, H.M.W.K., <strong>Dewangani, H.G.N.</strong> and Jayawardena, B. M. (2021). Synthesis and characterization of cinnamon enriched BSA particles with antidiabetic properties. Accepted to be published in the International Conference on Applied and Pure Sciences (ICAPS) to be held on 29th October 2021.
         </li>
     </ul>
 </div>
+
 
     <!-- Honors/Awards/Scholarships Section -->
     <div class="container mt-5 container-box" id="honors-awards-scholarships">
         <h2>Honors/Awards/Scholarships</h2>
        <ul>
-            <li>Awarded with Graduate Dean’s Merit Scholarship offered from the graduate school as an elite selection of master's and doctoral students who show the potential to make substantive contributions to their discipline (10/10/2022).</li>
             <li>Awarded as the “Outstanding International Graduate student” at the spring awards held by the Graduate Student Association (19/04/2023).</li>
-            <li>Approved my applications for the Travel Award two times provided by the Graduate Student Association, University of Nevada, Reno (11/04/2022 and 24/04/2023).</li>
+
+            <li>Awarded with Graduate Dean’s Merit Scholarship offered from the graduate school as an elite selection of master's and doctoral students who show the potential to make substantive contributions to their discipline (10/10/2022).</li>
+              <li>Approved my applications for the Travel Award two times provided by the Graduate Student Association, University of Nevada, Reno (11/04/2022 and 24/04/2023).</li>
             <li>Awarded senate honors for conducting high-quality research and publishing in the year 2021 in an international indexed journal by the senate committee, University of Kelaniya, Sri Lanka (26.01.2022).</li>
             <li>Received a 2-year scholarship (AHEAD/RA3/DOR/KLN/SCI/OVAA/01/RS-09) to conduct master’s research project Accelerating Higher Education Expansion and Development Operation (AHEAD-DOR) funded by the World Bank (August, 2019-November, 2021).</li>
         </ul>
@@ -328,57 +331,18 @@ techniques.
 
 
 
-    <!-- Relevant Skills Section -->
-    <div class="container mt-5 container-box" id="relevant-skills">
-        <h2>Relevant Skills</h2>
-         <p>
-        <strong>Computer Tools</strong>
-    </p>
 
-        <ul>
-            <li>R software for statistical analysis</li>
-            <li>SPSS, Mini tab, Graphpad prism</li>
-            <li>Proficient user of MS Office</li>
-        </ul>
-<p>
-        <strong>Laboratory Skills</strong>
-    </p>
 
-        <ul>
-            <li>Hands-on experience in operating and optimizing conditions for analytical instruments such as UV/VIS spectrophotometer, Microplate reader, Gas chromatography- Mass Spectroscopy (GC-MS), Fourier Transform Infrared Spectroscopy (FT-IR) analysis</li>
-            <li>Laboratory animal handling of Wistar rats including oral feeding, euthanizing techniques, and tail vein blood collection</li>
-            <li>qPCR analysis</li>
-        </ul>
-    </div>
-
-    <!-- Workshops and Courses Section -->
-    <div class="container mt-5 container-box" id="workshops-courses">
-        <h2>Workshops and Courses</h2>
-        <ul>
-            <li>Improvements of skills of postgraduate students in Statistical Analysis, Information Literacy, Research Methodologies, and Scientific Writing for MPhil and PhD students- 2019/2020 conducted by the Faculty of Graduate Studies, University of Kelaniya</li>
-            <li>Presented an oral presentation on the topic of “Managing non-communicable diseases by intervention through lifestyle changes and nutraceutical supplements at the Research Colloquium organized by Research and Service Center, Faculty of Science, University of Kelaniya held on 16th January 2020.</li>
-            <li>Successful completion of Laboratory animal handling of Wistar rats including oral feeding, Euthanizing techniques, and tail vein blood collection at Medical Research Institute, Sri Lanka (November 2019 - January 2020).</li>
-            <li>Certificate courses in Computer Literacy conducted by Information and Communication Technology Centre, University of Kelaniya (2018)</li>
-            <li>Participated in the Workshop on Scientific Research organized by Research and Services Centre, Faculty of Science, University of Kelaniya (2018)</li>
-            <li>Participated in the Workshop on Soft Skills Development Programme at Kithulgala Forest Reserve by the Department of Plant and Molecular Biology, University of Kelaniya</li>
-            <!-- Add more workshops and courses as needed -->
-        </ul>
-    </div>
 
     <!-- On-Campus Experience and Involvements Section -->
     <div class="container mt-5 container-box" id="campus-experience-involvements">
-        <h2>On-Campus Experience and Involvements</h2>
+        <h2>Extracurricular Activities</h2>
         <ul>
             <li>Treasurer of the Graduate Student Association of College of Agriculture, Biotechnology, and Natural Resources (Since Spring 20223).</li>
             <li>Participation as a member of the international student orientation panel held by the Office of International Student and Scholars on 24.08.2022</li>
             <li>Participated as a volunteer for NevadaFIT Opening Weekend in assisting in the registration process and welcoming of new students (20.08.2022)</li>
             <li>Volunteered as an International Student Ambassador to assist students with cultural adjustment, provide information about important campus resources, help students through the check-in and enrollment processes, and serve as general guides and mentors on 23rd and 25th August, 2022.</li>
-            <li>Member of Plant and Molecular Biology Student Association-University of Kelaniya (2017-2019)</li>
-            <li>Awarded the certificate for the phenomenal contribution at “Vidya 2017” exhibition, University of Kelaniya.</li>
-            <li>Sustainability leadership training program organized by the Center of Sustainability Solutions, University of Kelaniya (27th September to 20th December, 2017)</li>
-            <li>Member of Chemical Society, (2015) University of Kelaniya, Sri Lanka</li>
-            <!-- Add more involvements as needed -->
-        </ul>
+           </ul>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
@@ -501,7 +465,9 @@ techniques.
         retina_detect: true
     });
 </script>
-
+<footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2024 Nadini Gamage - Personal Website | Last Updated: January 27, 2024</p>
+</footer>
 </body>
 
 </html>
